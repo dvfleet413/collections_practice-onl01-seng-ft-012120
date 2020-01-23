@@ -26,3 +26,6 @@ def kesha_maker(array)
     char_array.join
   end
 end 
+
+def find_a(array)
+  array.select {|element| element.chars.first
