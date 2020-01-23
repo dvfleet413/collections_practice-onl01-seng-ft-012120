@@ -30,3 +30,7 @@ end
 def find_a(array)
   array.select {|element| element.chars.first == "a" || element.chars.first == "A" }
 end
+
+def sum_array(array)
+  
+end 
