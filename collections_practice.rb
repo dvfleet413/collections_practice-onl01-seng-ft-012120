@@ -34,3 +34,6 @@ end
 def sum_array(array)
   array.reduce {|sum, element| sum + element}
 end 
+
+def add_s(array)
+  array.each
