@@ -37,4 +37,5 @@ end
 
 def add_s(array)
   result = []
-  array.each_with_index.collect {|element, index| result << element.chars.push("s").join
+  array.each_with_index.collect {|element, index| result << element.chars.push("s").join unless index == 1}
+end
